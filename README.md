@@ -58,5 +58,14 @@ Recommended IDE:
 2. Clone with ```git clone``` the forked repository to the PHPStorm project directory.
 3. Download and move 
 [SQLite database file](https://gitlab.hathor.at/fh-technikum/BIC4BaseProject/-/wikis/uploads/6175ab189c5bcd0b38283c658dfe56b7/database.zip) to ```database``` directory in cloned project.
-4. Run ```composer install``` and ```npm install``` in project folder.
-5. Open project with PHPStorm 
+4. Run ```composer install``` and ```npm install``` in project folder to get all needed libraries.
+5. Copy ```.env.example``` and name it ```.env ```
+6. Run ```php artisan key:generate``` to generate encryption key for your application.
+7. Run ```php artisan migrate``` to create all needet tables.
+8. Open project with PHPStorm
+
+## More information
+
+To help implementing the software a sample project was created: [TechnikumBlog](https://github.com/AVAtric/BIC4SampleBlogProject)
+The project can be started with the same steps that are needed for developmet preparation.
+
