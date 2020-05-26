@@ -66,6 +66,6 @@ Recommended IDE:
 
 ## More information
 
-To help implementing the software a sample project was created: [TechnikumBlog](https://github.com/AVAtric/BIC4SampleBlogProject)
+To help implementing the software a sample project was created: [TechnikumBlog](https://github.com/AVAtric/BIC4SampleBlogProject).
 The project can be started with the same steps that are needed for developmet preparation.
 
